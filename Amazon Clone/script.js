@@ -29,8 +29,7 @@ function viewCart() {
 }
 const backToTopButton = document.querySelector('.back-to-top');
 
-// Add an event listener to the button
 backToTopButton.addEventListener('click', () => {
-  // Scroll to the top of the page
+
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
